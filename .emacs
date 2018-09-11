@@ -59,7 +59,7 @@
 ; (require 'yasnippet)
 ; (yas-global-mode 1)
 
-; cmake-mode and such
+; cmake-mode, .bashrc attempts to ensure ~/.emacs.d/cmake-mode.el exists
 (setq auto-mode-alist
       (append
        '(("CMakeLists\\.txt\\'" . cmake-mode))

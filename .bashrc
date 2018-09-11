@@ -40,6 +40,7 @@ if [[ "${EDITOR}" == "emacs" ]] ; then
     mkdir .emacs.d
   fi
   # grab the cmake mode file for emacs if it doesn't currently exist
+  #  the .emacs file assumes this file is available
   if [ ! -f $HOME/.emacs.d/cmake-mode.el ] ; then
     wget https://raw.githubusercontent.com/Kitware/CMake/master/Auxiliary/cmake-mode.el ~/.emacs.d/
   fi
