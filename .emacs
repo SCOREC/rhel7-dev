@@ -90,7 +90,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (counsel-etags magit yasnippet company-rtags rtags company highlight-symbol))))
+    (counsel-etags magit yasnippet company highlight-symbol))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
