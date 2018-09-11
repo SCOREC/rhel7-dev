@@ -1,0 +1,5 @@
+# alias utility commands
+alias lss="ls -alht"
+alias ssh="ssh -X"
+alias emacs="emacs -nw"
+
