@@ -27,6 +27,8 @@ module load mpich
 module load petsc/3.9.3-int32-hdf5+ftn-real-c-meo4jde
 module load totalview
 
+git config --global alias.pr 'pull --rebase'
+
 if [ -f ${GIT_ROOT}/share/git-prompt.sh ] ; then
   source $GIT_ROOT/share/git-prompt.sh
 fi
