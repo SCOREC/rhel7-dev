@@ -6,7 +6,7 @@ export EDITOR=emacs
 USER=`whoami`
 if [ ! -f /etc/redhat-release ] ; then
   echo "ERROR: This .bashrc file is intended for use on the SCOREC RHEL7 systems!"
-  exit
+  return
 fi
 
 export DEVROOT=/${DEVLOC}/${USER}/dev
